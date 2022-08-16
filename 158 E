@@ -1,0 +1,12 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main ()
+{
+    long double r,pi=3.141592653,area;
+    cin>>r;
+    area = pi*r*r;
+    cout<<fixed<<setprecision(9);
+    cout<<area<<endl;
+    return 0;
+}
