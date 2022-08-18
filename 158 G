@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    long long n,i,sum;
+    cin>>n;
+    if(n>=1 && n<=10e9)
+    {
+        sum=(n*(n+1)/2);
+    }
+    cout<<sum<<endl;
+    return 0;
+}
