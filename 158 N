@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char x,a,b;
+    cin>>x;
+
+    if(x>=65 && x<=90)
+    {
+        a=x+32;
+          cout<<a<<endl;
+    }
+    else if(x>=97 && x<=122)
+    {
+        b=x-32;
+          cout<<b<<endl;
+    }
+    return 0;
+}
