@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x,y,z,m,d;
+    cin>>x;
+    y=(x/365);
+    z=(x%365);
+    m=(z/30);
+    d=(z%30);
+    cout<<y<<" years"<<endl;
+    cout<<m<<" months"<<endl;
+    cout<<d<<" days"<<endl;
+    return 0;
+}
