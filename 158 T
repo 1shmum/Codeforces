@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c,m,n,o,temp=0;
+    cin>>a>>b>>c;
+    m=a;
+    n=b;
+    o=c;
+    if(a<b)
+    {
+        temp=a;
+        a=b;
+        b=temp;
+    }
+    if(a<c)
+    {
+        temp=a;
+        a=c;
+        c=temp;
+    }
+    if(b<c)
+    {
+        temp=b;
+        b=c;
+        c=temp;
+    }
+    cout<<c<<endl<<b<<endl<<a<<endl<<endl<<m<<endl<<n<<endl<<o<<endl;
+    return 0;
+}
