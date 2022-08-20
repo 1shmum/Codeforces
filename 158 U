@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a;
+    double x,temp;
+    cin>>x;
+    a=x;
+    temp=x-a;
+    cout<<fixed<<setprecision(3);
+    if(temp==0)
+        cout<<"int "<<a<<endl;
+    else
+        cout<<"float "<<a<<" "<<temp;
+    return 0;
+}
