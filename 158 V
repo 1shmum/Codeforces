@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int A,B;
+    char C;
+    cin>>A>>C>>B;
+    if(A>B && C=='>')
+        cout<<"Right"<<endl;
+    else if(A<B && C=='<')
+        cout<<"Right"<<endl;
+    else if(A==B && C=='=')
+        cout<<"Right"<<endl;
+    else
+        cout<<"Wrong"<<endl;
+    return 0;
+}
