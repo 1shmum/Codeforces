@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c,sum,mul,sub;
+    char x,m;
+    cin>>a>>x>>b>>m>>c;
+    sum=a+b;
+    mul=a*b;
+    sub=a-b;
+    if(x=='+')
+    {
+        if(c==(a+b))
+            cout<<"Yes"<<endl;
+        else
+            cout<<sum<<endl;
+    }
+    else if(x=='-')
+    {
+        if(c==(a-b))
+        cout<<"Yes"<<endl;
+        else
+            cout<<sub<<endl;
+    }
+    else if(x=='*')
+    {
+        if(c==(a*b))
+        cout<<"Yes"<<endl;
+        else
+            cout<<mul<<endl;
+    }
+
+
+    return 0;
+}
